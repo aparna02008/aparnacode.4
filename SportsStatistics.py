@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np 
 import pandas as pd
 data=np.random.randint(0,100,(11,11))
 print("The data of cricket runs:",data)
