@@ -10,7 +10,7 @@ print("Total runs per player",playertotal)
 matchtotal=data.sum(axis=1)
 print("Total runs per match",matchtotal)
 playeraverage=data.mean(axis=0)
-print("Average score per player:",playeraverage)
+print("Average score per player:",playeraverage) 
 best=playertotal.max()
 indplayer=np.argmax(playertotal)
 bestplayer=player[indplayer]
